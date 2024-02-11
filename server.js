@@ -28,7 +28,8 @@ global.jbg = {
 	appConfigs: config.appConfigs,
 	games: JSON.parse(fs.readFileSync('./games.json')),
 	artifactCategories: {},
-	internalToken: config.internalToken
+	internalToken: config.internalToken,
+	licenses: config.licenses
 }
 const sslCerts = {cert: fs.readFileSync(config.ssl.cert), key: fs.readFileSync(config.ssl.key)};
 
