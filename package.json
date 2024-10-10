@@ -1,0 +1,32 @@
+{
+  "name": "jackbox-private-server",
+  "version": "1.0.0",
+  "description": "An attempt to make a private server for all jackbox games",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smpial/jackbox-private-server.git"
+  },
+  "author": "smpial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smpial/jackbox-private-server/issues"
+  },
+  "homepage": "https://github.com/smpial/jackbox-private-server#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1550.0",
+    "express": "^4.18.2",
+    "request": "^2.88.2",
+    "ws": "^8.16.0",
+    "xmlhttprequest": "^1.8.0",
+    "mock-browser": "^0.92.14"
+  }
+}

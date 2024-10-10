@@ -1,0 +1,342 @@
+{
+	"serverUrl": "localhost",
+	"polly": {
+		"enabled": false,
+		"accessKeyId": "your access key id",
+		"secretAccessKey": "your secret access key",
+		"uploadUrl": "your polly responses upload url"
+	},
+	"artifacts": {
+		"uploadEnabled": false,
+		"uploadUrl": "your artifacts url"
+	},
+	"internalToken": "your custom internal token (used in debug, external requests and polly responses upload)",
+	"allowedOrigins": [
+		"http://localhost",
+		"https://localhost"
+	],
+	"ssl": {
+		"cert": "./fullchain.pem",
+		"key": "./privkey.pem"
+	},
+	"licenses": [
+		"drawful_ts",
+		"acquisitions_inc_cteam",
+		"uofc_stadium",
+		"template_pro",
+		"atl_live",
+		"alabama_stadium",
+		"state_farm",
+		"eleague_pro",
+		"nsg",
+		"tnt_amex",
+		"nbc_gdc",
+		"jbg_insomnia",
+		"tonight_show",
+		"ari_cardinals_stadium",
+		"spectra_iowa",
+		"drawful_ts",
+		"template_stadium",
+		"atl_live",
+		"chisox",
+		"spectra",
+		"jbg_adler",
+		"jbg_insomnia",
+		"spectra_cs",
+		"ncaaconf",
+		"jbg_stadium",
+		"parx",
+		"sf_49ers_conf_stadium",
+		"sf_49ers_conf_pro",
+		"ari_cardinals_pro",
+		"vegas_gk",
+		"eleague_stadium",
+		"acquisitions_inc"
+	],
+	"appConfigs": {
+		"TriviaDeath2": {
+			"bannedContentIds": {
+				"TDQuestion": [
+					"55182_es-XL"
+				],
+				"TDQuestionBomb": [
+					"TMP2-END-1_it-IT"
+				],
+				"QuiplashContent": [
+					"TMP2-QUIP-1_fr-FR",
+					"TMP2-QUIP-2_fr-FR",
+					"TMP2-QUIP-3_fr-FR",
+					"TMP2-QUIP-4_fr-FR",
+					"TMP2-QUIP-5_fr-FR",
+					"TMP2-QUIP-1_it-IT",
+					"TMP2-QUIP-2_it-IT",
+					"TMP2-QUIP-3_it-IT",
+					"TMP2-QUIP-4_it-IT",
+					"TMP2-QUIP-5_it-IT"
+				],
+				"TDQuestionKnife": [
+					"TMP2-END-14_de-DE",
+					"TMP2-END-16_de-DE",
+					"TMP2-END-12_it-IT",
+					"TMP2-END-13_it-IT",
+					"TMP2-END-14_it-IT",
+					"TMP2-END-15_it-IT",
+					"TMP2-END-16_it-IT",
+					"TMP2-END-17_it-IT",
+					"TMP2-END-18_it-IT",
+					"TMP2-END-19_it-IT"
+				],
+				"TDQuestionMadness": [
+					"TMP2-END-20_it-IT",
+					"TMP2-END-21_it-IT",
+					"TMP2-END-22_it-IT"
+				]
+			}
+		},
+		"RoleModels": {
+			"preventPictures": false
+		},
+		"quiplash3": {
+			"serverUrl": "localhost"
+		},
+		"Everyday": {
+			"serverUrl": "localhost"
+		},
+		"WorldChampions": {
+			"serverUrl": "localhost"
+		},
+		"JackboxTalks": {
+			"serverUrl": "localhost"
+		},
+		"BlankyBlank": {
+			"serverUrl": "localhost"
+		},
+		"fourbage": {
+			"bannedContentIds": {
+				"fibbageblankie": [
+					"SHORT-BLANK-62_es-ES",
+					"SHORT-BLANK-2_es-XL",
+					"SHORT-BLANK-62_es-XL",
+					"SHORT-BLANK-62_fr-FR",
+					"86962_it-IT"
+				],
+				"historyblankie": [
+					"87272_fr-FR",
+					"93343_fr-FR",
+					"93346_fr-FR"
+				],
+				"celebrityblankie": [
+					"SHORT-CELEB-12_es-ES",
+					"SHORT-CELEB-9_es-XL",
+					"SHORT-CELEB-12_es-XL",
+					"SHORT-CELEB-12_fr-FR"
+				]
+			}
+		},
+		"htmf": {
+			"bannedContentIds": {
+				"RoomerangJobTitle": [
+					"87888_es-XL",
+					"90301_es-XL",
+					"89432_it-IT",
+					"89427_it-IT",
+					"90140_it-IT"
+				],
+				"RoomerangSponsors": [
+					"93058_de-DE",
+					"93071_de-DE",
+					"93055_es-ES",
+					"93066_es-ES",
+					"93069_es-ES",
+					"93042_es-XL",
+					"93054_es-XL",
+					"93093_es-XL",
+					"93098_es-XL",
+					"93099_es-XL",
+					"93058_it-IT"
+				]
+			}
+		},
+		"range-game": {
+			"bannedContentIds": {
+				"RangeGameDrawingPrompt": [
+					"NONS-PROM-DRAW-1_es-ES",
+					"NONS-PROM-DRAW-1_es-XL"
+				]
+			}
+		},
+		"lineup": {
+			"bannedContentIds": {
+				"LineupLongSequence": [
+					"90972_es-ES",
+					"90974_es-ES"
+				],
+				"LineupTeamNamePair": [
+					"92645"
+				],
+				"LineupShortSequence": [
+					"90746",
+					"89281_es-ES",
+					"89465_es-ES",
+					"90528_es-ES",
+					"90746_es-ES",
+					"90753_es-ES",
+					"89276_es-XL",
+					"90746_es-XL",
+					"93883_es-XL",
+					"93887_es-XL",
+					"93888_es-XL",
+					"93955_es-XL",
+					"93959_es-XL",
+					"93960_es-XL",
+					"90746_fr-FR",
+					"93276_fr-FR"
+				]
+			}
+		},
+		"awshirt2": {
+			"apparelColors": [
+				{
+					"text": "#000000",
+					"background": "#ffffff"
+				},
+				{
+					"text": "#ffffff",
+					"background": "#222222"
+				},
+				{
+					"text": "#ffffff",
+					"background": "#9a9fa3"
+				},
+				{
+					"text": "#ffffff",
+					"background": "#2b3e74"
+				},
+				{
+					"text": "#ffffff",
+					"background": "#26974d"
+				},
+				{
+					"text": "#ffffff",
+					"background": "#5e508d"
+				},
+				{
+					"text": "#ffffff",
+					"background": "#e0599b"
+				},
+				{
+					"text": "#000000",
+					"background": "#fcf07c"
+				},
+				{
+					"text": "#ffffff",
+					"background": "#b72940"
+				}
+			],
+			"brushColors": [
+				"#000000",
+				"#f32938",
+				"#ffa500",
+				"#ffe72e",
+				"#44d582",
+				"#0046ae",
+				"#bc4df8",
+				"#634a2c",
+				"#ffffff",
+				"transparent"
+			]
+		},
+		"us-them": {
+			"bannedContentIds": {
+				"UsThemTrios": [
+					"96707_es-ES",
+					"96707_fr-FR",
+					"96707_pt-BR",
+					"TR-97183_es-XL",
+					"TR-97955_es-XL",
+					"TR-97955_fr-FR",
+					"TR-98170_es-XL",
+					"TR-98170_fr-FR",
+					"TR-98344_es-XL",
+					"TR-98344_fr-FR"
+				]
+			}
+		},
+		"fakinit2": {
+			"bannedContentIds": {
+				"FakinIt2Hands": [
+					"99051",
+					"99382",
+					"99393",
+					"99394",
+					"99395",
+					"99485",
+					"99486",
+					"99490",
+					"99555",
+					"99742",
+					"99746",
+					"99752",
+					"99839",
+					"99849",
+					"99855",
+					"100080",
+					"100293",
+					"100297"
+				],
+				"FakinIt2Point": [
+					"99518",
+					"100627",
+					"100818",
+					"100820",
+					"100959"
+				],
+				"FakinIt2Emojis": [
+					"101309",
+					"101478",
+					"101497",
+					"101504",
+					"101569",
+					"101638",
+					"101639",
+					"101652",
+					"101657",
+					"101707"
+				],
+				"FakinIt2Fingers": [
+					"99409",
+					"99413",
+					"99587",
+					"99593",
+					"99756",
+					"99860",
+					"99867",
+					"99872",
+					"99875",
+					"100228",
+					"100309",
+					"100310",
+					"100477",
+					"100484",
+					"100595",
+					"100607",
+					"100658",
+					"100143_de-DE",
+					"100144_de-DE",
+					"100145_de-DE",
+					"100148_de-DE",
+					"100149_de-DE",
+					"100150_de-DE",
+					"100154_de-DE",
+					"100157_de-DE",
+					"100158_de-DE",
+					"100159_de-DE",
+					"100160_de-DE",
+					"100161_de-DE",
+					"100169_de-DE",
+					"100234_de-DE"
+				]
+			}
+		}
+	}
+}
