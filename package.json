@@ -27,6 +27,8 @@
     "request": "^2.88.2",
     "ws": "^8.16.0",
     "xmlhttprequest": "^1.8.0",
-    "mock-browser": "^0.92.14"
+    "mock-browser": "^0.92.14",
+    "y-protocols": "^1.0.6",
+    "yjs": "^13.6.19"
   }
 }
