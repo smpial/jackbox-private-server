@@ -3,6 +3,7 @@ An attempt to make a private server for all jackbox games<br />
 If you found a bug or want to help me, create an issue or write me on Discord: @klucva
 ## Unfinished functions
 * Do Do Re Mi (in progress) (you need to skip playbacks)
+* The Jackbox Survey Scramble (you can play, but your answers will be ignored by server)
 * Artifacts and galleries (for now server only saves games jsons, no png's and gif's)
 
 In the current state of the project you can play all games except those listed above
