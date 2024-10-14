@@ -63,7 +63,8 @@
 		"awshirt-web": "fcd54d73-d447-4664-b46a-ef5ae5123739",
 		"fakinit2": "0a202088-af5f-453a-9534-980f0c182b3b",
 		"drawful3": "96de2677-4e3a-44fe-90ab-5d49082b14f2",
-		"captcha": "cad4259e-2f7d-4200-a3cb-fb2d90086a0e"
+		"captcha": "cad4259e-2f7d-4200-a3cb-fb2d90086a0e",
+		"bigsurvey": "928c228b-4d28-44a1-aee0-88678fe27b15"
 	},
 	"appIds": {
 		"358d2ab5-2496-4f89-a4a4-f1a4ffa4c0f4": "the-wheel",
@@ -129,7 +130,8 @@
 		"fcd54d73-d447-4664-b46a-ef5ae5123739": "awshirt-web",
 		"0a202088-af5f-453a-9534-980f0c182b3b": "fakinit2",
 		"96de2677-4e3a-44fe-90ab-5d49082b14f2": "drawful3",
-		"cad4259e-2f7d-4200-a3cb-fb2d90086a0e": "captcha"
+		"cad4259e-2f7d-4200-a3cb-fb2d90086a0e": "captcha",
+		"928c228b-4d28-44a1-aee0-88678fe27b15": "bigsurvey"
 	},
 	"maxPlayers": {
 		"the-wheel": 8,
@@ -195,7 +197,8 @@
 		"awshirt-web": 1,
 		"fakinit2": 8,
 		"drawful3": 10,
-		"captcha": 8
+		"captcha": 8,
+		"bigsurvey": 10
 	},
 	"minPlayers": {
 		"the-wheel": 0,
@@ -261,6 +264,7 @@
 		"awshirt-web": 1,
 		"fakinit2": 3,
 		"drawful3": 3,
-		"captcha": 3
+		"captcha": 3,
+		"bigsurvey": 1
 	}
 }
