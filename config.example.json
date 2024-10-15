@@ -6,6 +6,24 @@
 		"secretAccessKey": "your secret access key",
 		"uploadUrl": "your polly responses upload url"
 	},
+	"artifacts": {
+		"uploadEnabled": true,
+		"uploadUrl": "https://files.klucva.ru/jackboxgames/artifactUpload.php"
+	},
+	"externalRequests": {
+		"song-render": {
+			"enabled": false,
+			"url": "http://localhost:82/external-request/create",
+			"role": "harold",
+			"shouldResponse": true
+		},
+		"survey-ingest": {
+			"enabled": false,
+			"url": "http://localhost:82/external-request/create",
+			"role": null,
+			"shouldResponse": false
+		}
+	},
 	"internalToken": "your custom internal token (used in debug, external requests and polly responses upload)",
 	"allowedOrigins": [
 		"http://localhost",
