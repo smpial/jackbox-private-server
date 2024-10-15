@@ -19,6 +19,7 @@ global.jbg = {
 	wsIds: {},
 	serverUrl: config.serverUrl,
 	externalRequests: {},
+	externalRequestsConfig: config.externalRequests,
 	polly: config.polly.enabled ? new AWS.Polly({
 		region: 'us-east-1',
 		accessKeyId: config.polly.accessKeyId,
@@ -89,6 +90,11 @@ app.use((req, res, next) => {
 	if(req.originalUrl.startsWith('/debug') && req.query.token == global.jbg.internalToken) return debug.router(req, res, next);
 	if(req.originalUrl.startsWith('/api/v2/')) return ecastHttp(req, res, next);
 	return blobcastHttp(req, res, next);
+});
+
+app.use((req, res, next) => {
+	res.header('Content-Type', 'text/plain');
+	return res.status(404).send('404 page not found');
 });
 
 const blobcastServer = https.createServer(sslCerts, app);
